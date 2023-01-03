@@ -6,6 +6,7 @@ import { Navbar } from "./Navbar";
 import { TableMovies } from "./TableMovies";
 
 export const Main = () => {
+
   return (
     <div id="content">
       <Navbar />
@@ -19,6 +20,8 @@ export const Main = () => {
             <ContentRowMovies data={item} key={item.title} />
           ))}
         </div>
+
+        
 
         <div className="row">
           <LastMovies />

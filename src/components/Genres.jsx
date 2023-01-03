@@ -7,6 +7,7 @@ export const Genres = () => {
             Genres in Data Base
           </h5>
         </div>
+
         <div className="card-body">
           <div className="row">
             <div className="col-lg-6 mb-4">
@@ -14,6 +15,7 @@ export const Genres = () => {
                 <div className="card-body">Acción</div>
               </div>
             </div>
+            
             <div className="col-lg-6 mb-4">
               <div className="card bg-dark text-white shadow">
                 <div className="card-body">Animación</div>
